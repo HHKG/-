@@ -1,0 +1,9 @@
+<!--pages/animate/animate.wxml-->
+<view class="ring-layout" animation="{{animateLeft}}">
+    <view class="ring">1</view>
+    <view class="ring">2</view>
+    <view class="ring">3</view>
+    <view class="ring">4</view>
+</view>
+<button size="mini" bindtap="turnLeft">向右转</button>
+<button size="mini" bindtap="turnRigth">向左转</button>
